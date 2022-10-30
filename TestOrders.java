@@ -16,10 +16,12 @@ public class TestOrders {
 
         // Add at least 2 items to each of the orders using the addItem method
         order1.addItem(new Item("latte", 4.5));
-        order2.addItem(new Item("drip coffee", 6.5));
+        order1.addItem(new Item("drip coffee", 6.5));
+
+        // order2.addItem(new Item("drip coffee", 6.5));
 
         //test the results and the display method
-        order3.display();
+        // order3.display();
         order1.display();
 
         // Test your getStatusMessage functionality

@@ -63,8 +63,8 @@ public class Order{
     public void display () {
         System.out.println("Customer name: " +this.name);
         for (int i = 0; i < this.items.size(); i++) {
-            // System.out.println(this.Item.name + this.Item.price); // this did not work 
-            System.out.println(this.items.get(i).getName() + " - "  + "$ " + this.items.get(i).getPrice());
+            System.out.println(this.items.get(i).getName() + " _ "  + this.items.get(i).getPrice()); 
+            System.out.println("total:" + " - "  + "$ " + this.getOrderTotal());
                 
             }
     }
